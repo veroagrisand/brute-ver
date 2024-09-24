@@ -4,7 +4,8 @@ python3 -m venv venv
 #running venv
 source venv/bin/activate
 #installing requirements
-pip install -r requirements.txt
+pip install requests
+pip install hdwallet
 #changing directory to python
 cd python
 #running python scripts
